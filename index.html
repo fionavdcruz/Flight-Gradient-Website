@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Snow</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/f8498f81f7.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+  </head>
+  <body>
+      
+    <div id="navigation" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+      <div class="block">
+        <div class="container">
+        <div class="row">
+        <div class="col-sm-4 pull-left">
+       <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div id="first_container">
+      <div class="container">
+         <div class="row">
+           
+           <div class="col-sm-12 text-center">
+             <h2 class="title">ABOUT</h2>
+           </div>
+           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna ligula, porta nec finibus at, porttitor eu libero. In eget nulla id leo maximus ultrices maximus at lacus. Praesent dignissim dapibus urna gravida facilisis. Sed congue elit mauris, nec aliquet tellus rhoncus ut. Etiam erat metus, finibus eget posuere sit amet, volutpat eu metus. Praesent cursus nunc eget mollis consectetur. Morbi vel velit eros. Vivamus pulvinar accumsan magna, non pellentesque ipsum. Maecenas facilisis orci sit amet neque ullamcorper, a elementum erat hendrerit. Mauris aliquet purus vel egestas ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum molestie sem metus, ut ultricies augue faucibus in.</p>
+           </div>
+
+         </div>
+      </div>
+      </div>
+
+      <div id="second_container">
+      <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-12">
+            <h2 class="title">SERVICES</h2>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-4">
+          <span class="fa-stack fa-5x">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-wifi fa-stack-1x fa-inverse"></i>
+          </span>
+        </div>
+        <div class="col-sm-4">
+            <span class="fa-stack fa-5x">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-paper-plane-o fa-stack-1x fa-inverse"></i>
+            </span>
+        </div>
+        <div class="col-sm-4">
+            <span class="fa-stack fa-5x">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa fa-wheelchair fa-stack-1x fa-inverse"></i>
+            </span>
+        </div>
+        </div>
+      </div>
+
+      <div id="third_container">
+         <div class="container text-center">
+           <div class="row">
+               <div class="col-sm-12">
+                <p>&copy Copyright 2017</p>
+               </div> 
+           </div>
+         </div>
+      </div>
+      
+    <script src="js/jquery-3.2.0.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("navigation").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("navigation").style.width = "0%";
+        }
+</script>
+	</body>
+</html>
